@@ -1,0 +1,43 @@
+body {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    flex-grow: 1;
+}
+
+.keyboard {
+    display: flex;
+    
+}
+
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.operations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.box {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
